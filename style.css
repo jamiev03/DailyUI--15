@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: rgb(238, 236, 236);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.switch {
+    position: relative;
+    display: block;
+    width: 90px;
+    height: 55px;
+    margin-bottom: 30px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+}
